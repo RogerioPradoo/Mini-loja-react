@@ -1,0 +1,32 @@
+.titulo__cont {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.text__detail {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hrs {
+    width: 30%;
+    border: none;
+    height: 1px;
+    background-color: #494949;
+}
+
+.text__prod {
+    font-size: 30px;
+    color: #F71963;
+}
+
+.prod__relacionados {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,168 @@
+.footer {
+    background-color: #2A2A2A;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.container__footer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.box__sobre {
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    width: 40%;
+    height: 50%;
+    color: #FFFFFF;
+}
+
+.text__footer {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.text__sobre {
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.text__sobre:hover {
+    border-bottom: 1px solid #FFF;
+    width: 50%;
+}
+
+.box__icons {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50%;
+    cursor: pointer;
+}
+
+.box__pags {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 50%;
+    padding-top: 30px;
+}
+
+.box__pagamentos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 40%;
+    height: 50%;
+}
+
+.cadastro__footer {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.titulo__footer {
+    color: #FFF;
+    font-size: 20px;
+    margin: 0;
+    text-align: start;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.icon__footer {
+    margin: 10px
+}
+
+.footer__end {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.copy__footer {
+    font-size: 15px;
+    width: 70%;
+    display: flex;
+    color: #FFF;
+}
+
+
+.titulo__one {
+    margin: 0;
+    font-size: 15px;
+    color: #494949;
+}
+
+.titulo__two {
+    margin: 0;
+    font-size: 20px;
+    color: #000;
+}
+
+.desc__footer {
+    margin: 20px;
+    font-size: 10px;
+    color: #494949;
+}
+
+.box__input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.input__footer {
+    border: none;
+    width: 50%;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.button__footer {
+    background-color: #F71963;
+    border-radius: 10px;
+    margin: 10px;
+    height: 30px;
+    width: 20%;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.button__footer:hover {
+    cursor: pointer;
+    background-color: #e11a5c;
+}
+
+.cadastro__box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hrs {
+    width: 30%;
+    border: none;
+    height: 1px;
+    background-color: #494949;
+
+}

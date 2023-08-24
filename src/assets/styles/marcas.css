@@ -1,0 +1,36 @@
+.titulo__marcas {
+    color: #F71963;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+
+.marcas__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img__marcas {
+    margin-top: 60px;
+}
+
+.text__marcas {
+    color: #F71963;
+    margin: 0;
+}
+
+.box__marcas {
+    text-align: center;
+    width: 211px;
+    height: 211px;
+    border-radius: 100px;
+    box-shadow: 1px 3px 19px rgba(0, 0, 0, 0.22);
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.box__marcas:hover {
+    color: #e11a5c;
+    box-shadow: 1px 3px 19px #e11a5c;
+}

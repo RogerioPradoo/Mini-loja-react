@@ -1,0 +1,156 @@
+.container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.Header {
+    padding: 0;
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+}
+
+.mini__heeader {
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.mini-icon {
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+
+.text__mini {
+    font-size: 15px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.text__pink {
+    font-size: 15px;
+    padding-left: 5px;
+    color: #F71963;
+}
+
+.campo__input {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.campo__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__logo {
+    width: 50px;
+    height: 50px;
+    align-items: center;
+}
+
+.text__logo {
+    color: #F71963;
+}
+
+
+.input__campo {
+    width: 400px;
+    height: 30px;
+    background-color: #F6F5F2;
+    border: none;
+    color: black;
+    padding: 0 0 0 20px;
+}
+
+.icon-logo {
+    padding: 10px 10px 0 0;
+    cursor: pointer;
+}
+
+
+.header__text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.text__crow {
+    display: flex;
+    align-items: center;
+}
+
+.text__header {
+    font-size: 15px;
+    color: #494949;
+    cursor: pointer;
+}
+
+.text__header:hover {
+    cursor: pointer;
+    color: #F71963;
+}
+
+.banner {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.banner__img {
+    width: 100%;
+    z-index: 0;
+}
+
+.text__banner {
+    position: absolute;
+    z-index: 100;
+    color: #FFF;
+    width: 50%;
+}
+
+.hOne__banner {
+    font-size: 40px;
+}
+
+.hTwo__banner {
+    font-size: 30px;
+}
+
+.button__banner {
+    background-color: #F71963;
+    border: none;
+    width: 30%;
+    height: 50px;
+    color: #FFF;
+}
+
+.button__banner:hover {
+    cursor: pointer;
+    background-color: #e11a5c;
+}
+
+.hr__header {
+    width: 100%;
+    border: none;
+    height: 1px;
+    background-color: #494949;
+}

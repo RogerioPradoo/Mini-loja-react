@@ -1,0 +1,92 @@
+.modal {
+    margin: 150px 150px 150px 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    background-color: #FFF;
+}
+
+.container__modal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box__modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.img__modal {
+    width: 50%;
+}
+
+.nome__modal {
+    color: #041E50;
+    font-size: 30px;
+}
+
+.preco__modal {
+    color: #041E50;
+    margin: 0;
+}
+
+.quant__modal {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border: 1px solid #041E50;
+    width: 30%;
+    height: 20%;
+    justify-content: space-around;
+}
+
+.quant__valueDOWN {
+    color: #041E50;
+    font-size: 20px;
+}
+
+.quant__valueUP {
+    color: #041E50;
+    font-size: 20px;
+}
+
+.quant__value {
+    color: #041E50;
+    font-size: 20px;
+}
+
+.button__close {
+    display: flex;
+    margin-bottom: 300px;
+    border-style: none;
+    background-color: #FFF;
+}
+
+.up__modal {
+    border-style: none;
+    background-color: #FFF;
+    font-size: 20px;
+}
+
+.down__modal {
+    border-style: none;
+    background-color: #FFF;
+    font-size: 20px;
+}
+
+.buttoon__modal {
+    background-color: #F71963;
+    width: 50%;
+    height: 30px;
+    border: none;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.buttoon__modal:hover {
+    background-color: #e11a5c;
+}
