@@ -87,6 +87,8 @@
     justify-content: space-around;
     align-items: center;
     text-transform: uppercase;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
 }
 
 .text__crow {
@@ -129,10 +131,12 @@
 
 .hOne__banner {
     font-size: 40px;
+    flex-wrap: wrap;
 }
 
 .hTwo__banner {
     font-size: 30px;
+    flex-wrap: wrap;
 }
 
 .button__banner {
@@ -153,4 +157,35 @@
     border: none;
     height: 1px;
     background-color: #494949;
+}
+
+@media screen and (max-width: 835px) {
+    .campo__input {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hOne__banner {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .hTwo__banner {
+        font-size: 10px;
+        margin: 0;
+    }
+
+    .text__banner {
+        width: 100%;
+    }
+
+    .button__banner {
+        height: 30px;
+    }
+
+    .Header {
+        padding: 0;
+        justify-content: center;
+    }
+
 }

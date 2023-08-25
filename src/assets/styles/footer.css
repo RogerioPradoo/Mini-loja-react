@@ -166,3 +166,9 @@
     background-color: #494949;
 
 }
+
+@media screen and (max-width: 835px) {
+    .container__footer {
+        flex-wrap: wrap;
+    }
+}

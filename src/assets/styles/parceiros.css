@@ -78,3 +78,34 @@
     cursor: pointer;
     color: #F71963;
 }
+
+@media screen and (max-width: 835px) {
+    .container__parceiros {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .parceiros__box {
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    .titulo__parceiros {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .text__parceiros {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .text__box {
+        flex-wrap: wrap;
+        position: absolute;
+    }
+
+    .button__parceiros {
+        margin: 0;
+    }
+}

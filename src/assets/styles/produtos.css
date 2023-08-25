@@ -86,3 +86,28 @@
     cursor: pointer;
     background-color: #e11a5c;
 }
+
+@media screen and (max-width: 835px) {
+    .container__produtos {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    .button__setaE {
+        position: absolute;
+        left: 0;
+        margin-top: 1100px;
+    }
+
+    .button__setaD {
+        position: absolute;
+        margin-top: 1100px;
+        right: 0;
+    }
+
+    .div__key {
+        margin-top: 100px;
+    }
+
+}

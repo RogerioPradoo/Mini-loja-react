@@ -72,21 +72,7 @@ function Produtos() {
             {carregando && <h1></h1>}
             {!carregando &&
                 <>
-                    {/* <div className='container__tipos'>
-                        <div className='titulo__container'>
-                            <hr className='hrs' />
-                            <h2 className='text__prod'>Produtos Relacionados</h2>
-                            <hr className='hrs' />
-                        </div>
-                        <div className='prod__relacionados'>
-                            <p className='text__relacionados'>celular</p>
-                            <p className='text__relacionados'>acessorios</p>
-                            <p className='text__relacionados'>tablets</p>
-                            <p className='text__relacionados'>notbooks</p>
-                            <p className='text__relacionados'>TVs</p>
-                            <p className='text__relacionados'>Ver todos</p>
-                        </div>
-                    </div> */}
+
                     <div className='container__produtos'>
                         <button className='button__setaE' onClick={aumentar}>
                             <img src={setaEsquerda} alt='setaEsquerda' width={20} height={20} />
