@@ -68,12 +68,18 @@
 
 
 .input__campo {
-    width: 400px;
+    width: 300px;
     height: 30px;
     background-color: #F6F5F2;
     border: none;
     color: black;
     padding: 0 0 0 20px;
+}
+
+.cont__input {
+    display: flex;
+    align-items: center;
+    background-color: #F6F5F2;
 }
 
 .icon-logo {
@@ -186,6 +192,24 @@
     .Header {
         padding: 0;
         justify-content: center;
+    }
+
+    .mini-icon {
+        display: none;
+    }
+
+    .text__mini {
+        font-size: 10px;
+        margin: 0;
+    }
+
+    .text__pink {
+        font-size: 10px;
+        margin: 0;
+    }
+
+    .mini__heeader {
+        margin-top: 20px;
     }
 
 }

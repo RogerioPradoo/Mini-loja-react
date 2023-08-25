@@ -171,4 +171,8 @@
     .container__footer {
         flex-wrap: wrap;
     }
+
+    .footer__end {
+        flex-direction: column;
+    }
 }

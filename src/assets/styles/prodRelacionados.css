@@ -33,4 +33,17 @@
 }
 
 
-@media screen and (max-width: 835px) {}
+@media screen and (max-width: 835px) {
+    .text__prod {
+        margin: 0;
+    }
+
+    .titulo__cont {
+        text-align: center;
+    }
+
+    .text__detail {
+        justify-content: center;
+        align-items: center;
+    }
+}
