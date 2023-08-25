@@ -70,3 +70,10 @@
     cursor: pointer;
     color: #F71963;
 }
+
+@media screen and (max-width: 835px) {
+    .text__prod {
+        font-size: 15px;
+        text-align: center;
+    }
+}

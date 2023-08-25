@@ -175,4 +175,8 @@
     .footer__end {
         flex-direction: column;
     }
+
+    .box__pagamentos {
+        width: 60%;
+    }
 }

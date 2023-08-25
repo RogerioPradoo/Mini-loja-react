@@ -33,3 +33,15 @@
 .box__img:hover {
     box-shadow: 1px 3px 19px #F71963;
 }
+
+@media screen and (max-width: 835px) {
+    .container__menu {
+        margin: 0;
+        justify-content: center;
+    }
+
+    menu {
+        margin: 0;
+        padding: 0;
+    }
+}
