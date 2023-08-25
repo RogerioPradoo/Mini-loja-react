@@ -24,11 +24,13 @@
     font-size: 30px;
     margin: 0;
     color: #FFF;
+    text-shadow: 0.1em 0.1em 0.05em #333;
 }
 
 .text__parceiros {
     font-size: 15px;
     color: #FFF;
+    text-shadow: 0.1em 0.1em 0.05em #333;
 }
 
 .text__box {

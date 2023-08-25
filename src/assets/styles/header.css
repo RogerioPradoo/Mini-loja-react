@@ -131,6 +131,7 @@
     z-index: 100;
     color: #FFF;
     width: 50%;
+    text-shadow: 0.1em 0.1em 0.05em #333;
 }
 
 .hOne__banner {
@@ -186,6 +187,7 @@
 
     .text__banner {
         width: 100%;
+
     }
 
     .button__banner {
