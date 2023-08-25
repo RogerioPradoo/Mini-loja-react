@@ -122,10 +122,11 @@
 }
 
 .box__input {
-    display: flex;
+    display: absolute;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
 }
 
 .input__footer {
@@ -172,11 +173,30 @@
         flex-wrap: wrap;
     }
 
-    .footer__end {
-        flex-direction: column;
-    }
+
 
     .box__pagamentos {
         width: 60%;
     }
+
+    .titulo__one {
+        margin: 0;
+        font-size: 10px;
+    }
+
+    .titulo__two {
+        margin: 0;
+        font-size: 15px;
+    }
+
+    .desc__footer {
+        margin: 0;
+        font-size: 10px;
+    }
+
+    .button__footer {
+        margin: 0;
+    }
+
+
 }

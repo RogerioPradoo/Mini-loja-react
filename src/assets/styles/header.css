@@ -82,7 +82,6 @@
 }
 
 .icon-logo {
-    padding: 10px 10px 0 0;
     cursor: pointer;
 }
 
@@ -170,6 +169,11 @@
         flex-direction: column;
     }
 
+    .header-top {
+        display: none;
+    }
+
+
     .hOne__banner {
         font-size: 20px;
         margin: 0;
@@ -205,10 +209,6 @@
     .text__pink {
         font-size: 10px;
         margin: 0;
-    }
-
-    .mini__heeader {
-        margin-top: 20px;
     }
 
     .text__header {

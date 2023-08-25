@@ -5,6 +5,7 @@
     align-items: center;
     width: 80%;
     background-color: #FFF;
+    z-index: 200;
 }
 
 .container__modal {
@@ -85,8 +86,32 @@
     border: none;
     margin-bottom: 50px;
     cursor: pointer;
+    color: #FFF;
 }
 
 .buttoon__modal:hover {
     background-color: #e11a5c;
+}
+
+@media screen and (max-width: 835px) {
+    .container__modal {
+        flex-direction: column;
+    }
+
+    .quant__modal {
+        width: 40%;
+    }
+
+    .buttoon__modal {
+        width: 100%;
+    }
+
+    .modal {
+        margin: 0;
+        z-index: 200;
+    }
+
+    .button__close {
+        margin-bottom: 800px;
+    }
 }
