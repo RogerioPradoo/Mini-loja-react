@@ -11,8 +11,7 @@ import master from '../assets/imgs/mastercard.png'
 import pix from '../assets/imgs/pix.png'
 import sodexo from '../assets/imgs/sodexo.png'
 import alelo from '../assets/imgs/alelo.png'
-import logoEco from '../assets/imgs/Grupo 1999logoEco.png'
-import vtex from '../assets/imgs/Group 35LogoVtex.png'
+import logis from '../assets/imgs/network.png'
 
 import "../assets/styles/footer.css"
 
@@ -74,8 +73,8 @@ function Footer() {
             </div>
             <div className='footer__end'>
                 <p className='copy__footer'>Copyright © 2019. Todos os direitos reservados. Todas as marcas e suas imagens são de propriedade de seus respectivos donos. É vedada a reprodução, total ou parcial, de qualquer conteúdo sem expressa autorização.</p>
-                <img src={logoEco} width={50} height={50} alt='econverse' />
-                <img src={vtex} width={50} height={50} alt='vtex' />
+                <img src={logis} width={50} height={50} alt='logis' />
+                <img src={logis} width={50} height={50} alt='vtex' />
             </div>
         </footer>
     )

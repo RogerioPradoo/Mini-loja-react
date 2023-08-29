@@ -1,4 +1,3 @@
-import logo from '../assets/imgs/logo.png'
 import truck from '../assets/imgs/truck.png'
 import shield from '../assets/imgs/ShieldCheck.png'
 import cartao from '../assets/imgs/CreditCard.png'
@@ -8,6 +7,7 @@ import favorito from '../assets/imgs/Heart.png'
 import user from '../assets/imgs/UserCircle.png'
 import glass from '../assets/imgs/MagnifyingGlass.png'
 import carrinho from '../assets/imgs/ShoppingCart.png'
+import logis from '../assets/imgs/network.png'
 import banner from '../assets/imgs/Rectangle 250.png'
 import '../assets/styles/header.css'
 
@@ -35,8 +35,8 @@ function Header() {
                         <hr className='hr__header' />
                         <div className="campo__input">
                             <div className='campo__logo'>
-                                <img src={logo} className="header__logo" alt="logo" />
-                                <p className='text__logo'>VTEX</p>
+                                <img src={logis} className="header__logo" alt="logo" />
+                                <p className='text__logo'>UPSELL</p>
                             </div>
                             <div className='cont__input'>
                                 <input placeholder='O que está buscando?' className='input__campo'></input>

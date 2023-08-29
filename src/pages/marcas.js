@@ -1,4 +1,4 @@
-import logo from '../assets/imgs/logo.png'
+import logis from '../assets/imgs/network.png'
 import "../assets/styles/marcas.css"
 
 function LogoMarca() {
@@ -9,24 +9,24 @@ function LogoMarca() {
             </div>
             <div className='marcas__container'>
                 <div className='box__marcas'>
-                    <img src={logo} className="img__marcas" alt='logos' />
-                    <p className='text__marcas'>VTEX</p>
+                    <img src={logis} className="img__marcas" alt='logos' />
+                    <p className='text__marcas'>UPSELL</p>
                 </div>
                 <div className='box__marcas'>
-                    <img src={logo} className="img__marcas" alt='logos' />
-                    <p className='text__marcas'>VTEX</p>
+                    <img src={logis} className="img__marcas" alt='logos' />
+                    <p className='text__marcas'>UPSELL</p>
                 </div>
                 <div className='box__marcas'>
-                    <img src={logo} className="img__marcas" alt='logos' />
-                    <p className='text__marcas'>VTEX</p>
+                    <img src={logis} className="img__marcas" alt='logos' />
+                    <p className='text__marcas'>UPSELL</p>
                 </div>
                 <div className='box__marcas'>
-                    <img src={logo} className="img__marcas" alt='logos' />
-                    <p className='text__marcas'>VTEX</p>
+                    <img src={logis} className="img__marcas" alt='logos' />
+                    <p className='text__marcas'>UPSELL</p>
                 </div>
                 <div className='box__marcas'>
-                    <img src={logo} className="img__marcas" alt='logos' />
-                    <p className='text__marcas'>VTEX</p>
+                    <img src={logis} className="img__marcas" alt='logos' />
+                    <p className='text__marcas'>UPSELL</p>
                 </div>
             </div>
         </>
